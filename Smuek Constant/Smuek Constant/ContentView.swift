@@ -28,13 +28,14 @@ struct ContentView: View {
             Image("header")
                 .resizable()
                 .scaledToFit()
+                .colorMultiply(.gray)
                 //.padding(4)
                 //.frame(alignment: .top)
                 .overlay(Text("Smuek Constant"), alignment: .center)
-                .font(.system(.largeTitle, design: .rounded))
-                .foregroundColor(.white)
-                .colorMultiply(.gray)
-            Spacer()
+                //.font(.system(.largeTitle, design: .rounded))
+                .font(.system(size: 64, design: .rounded))
+                .foregroundColor(.blue)
+                .multilineTextAlignment(.center)
 
             TextField("Enter an ammount of Money", text: $input1)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -42,6 +43,7 @@ struct ContentView: View {
 //                .textFieldStyle(RoundedBorderTextFieldStyle())
 
             Text(calculation)
+            Spacer()
         }
     }
 }
