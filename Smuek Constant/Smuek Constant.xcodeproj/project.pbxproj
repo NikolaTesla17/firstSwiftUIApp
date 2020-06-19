@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		7F8829E2249CA6F400D089EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8829E0249CA6F400D089EF /* LaunchScreen.storyboard */; };
 		7F8829ED249CA6F400D089EF /* Smuek_ConstantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8829EC249CA6F400D089EF /* Smuek_ConstantTests.swift */; };
 		7F8829F8249CA6F500D089EF /* Smuek_ConstantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8829F7249CA6F500D089EF /* Smuek_ConstantUITests.swift */; };
+		7F882A09249D3C1500D089EF /* HGCircularSlider in Frameworks */ = {isa = PBXBuildFile; productRef = 7F882A08249D3C1500D089EF /* HGCircularSlider */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F882A09249D3C1500D089EF /* HGCircularSlider in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,9 @@
 			dependencies = (
 			);
 			name = "Smuek Constant";
+			packageProductDependencies = (
+				7F882A08249D3C1500D089EF /* HGCircularSlider */,
+			);
 			productName = "Smuek Constant";
 			productReference = 7F8829D2249CA6F300D089EF /* Smuek Constant.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 7F8829C9249CA6F200D089EF;
+			packageReferences = (
+				7F882A07249D3C1500D089EF /* XCRemoteSwiftPackageReference "HGCircularSlider" */,
+			);
 			productRefGroup = 7F8829D3249CA6F300D089EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -588,6 +596,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F882A07249D3C1500D089EF /* XCRemoteSwiftPackageReference "HGCircularSlider" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HamzaGhazouani/HGCircularSlider";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F882A08249D3C1500D089EF /* HGCircularSlider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F882A07249D3C1500D089EF /* XCRemoteSwiftPackageReference "HGCircularSlider" */;
+			productName = HGCircularSlider;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7F8829CA249CA6F200D089EF /* Project object */;
 }

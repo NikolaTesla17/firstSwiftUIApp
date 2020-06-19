@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import HGCircularSlider
 
 struct ContentView: View {
     @State var input1: String = ""
@@ -26,6 +27,7 @@ struct ContentView: View {
         return returnValue
         //return String(format: "%.2f", product)
     }
+    //let myFrame = UIScreen.main.bounds
 
     var body: some View {
         //VStack {
@@ -88,10 +90,11 @@ struct ContentView: View {
                 
             //Slider(value: $input1, in: -100...100, step: 0.1)
             //Text("\(celsius) Celsius is \(celsius * 9 / 5 + 32) Fahrenheit")
-                VStack {
-                    Slider(value: $celsius, in: -100...100, step: 0.1)
-                    Text("\(celsius) Celsius is \(celsius * 9 / 5 + 32) Fahrenheit")
-                }
+                //let rect = CGRectMake(0, 0, 100, 100)
+                let circularSlider = CircularSlider(frame: rect)
+            circularSlider.minimumValue = 0.0
+            circularSlider.maximumValue = 1.0
+            circularSlider.endPointValue = 0.2
                 
                 
             Text(calculation)
