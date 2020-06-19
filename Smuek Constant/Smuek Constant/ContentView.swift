@@ -25,6 +25,17 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
+            Image("header")
+                .resizable()
+                .scaledToFit()
+                //.padding(4)
+                //.frame(alignment: .top)
+                .overlay(Text("Smuek Constant"), alignment: .center)
+                .font(.system(.largeTitle, design: .rounded))
+                .foregroundColor(.white)
+                .colorMultiply(.gray)
+            Spacer()
+
             TextField("Enter an ammount of Money", text: $input1)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
 //            TextField("Enter Second Number", text: $input2)
