@@ -106,12 +106,12 @@ struct ContentView: View {
     }
 }
 
-struct CircularSlider {
-    let circularSlider = CircularSlider(frame: myFrame)
-    circularSlider.minimumValue = 0.0
-    circularSlider.maximumValue = 1.0
-    circularSlider.endPointValue = 0.2
-}
+//struct CircularSlider {
+//    let circularSlider = CircularSlider(frame: myFrame)
+//    circularSlider.minimumValue = 0.0
+//    circularSlider.maximumValue = 1.0
+//    circularSlider.endPointValue = 0.2
+//}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
