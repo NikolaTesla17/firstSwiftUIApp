@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F8829D6249CA6F300D089EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8829D5249CA6F300D089EF /* AppDelegate.swift */; };
+		7F8829D8249CA6F300D089EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8829D7249CA6F300D089EF /* SceneDelegate.swift */; };
+		7F8829DA249CA6F300D089EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8829D9249CA6F300D089EF /* ContentView.swift */; };
+		7F8829DC249CA6F400D089EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8829DB249CA6F400D089EF /* Assets.xcassets */; };
+		7F8829DF249CA6F400D089EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8829DE249CA6F400D089EF /* Preview Assets.xcassets */; };
+		7F8829E2249CA6F400D089EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8829E0249CA6F400D089EF /* LaunchScreen.storyboard */; };
+		7F8829ED249CA6F400D089EF /* Smuek_ConstantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8829EC249CA6F400D089EF /* Smuek_ConstantTests.swift */; };
+		7F8829F8249CA6F500D089EF /* Smuek_ConstantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8829F7249CA6F500D089EF /* Smuek_ConstantUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F8829E9249CA6F400D089EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8829CA249CA6F200D089EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F8829D1249CA6F300D089EF;
+			remoteInfo = "Smuek Constant";
+		};
+		7F8829F4249CA6F500D089EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8829CA249CA6F200D089EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F8829D1249CA6F300D089EF;
+			remoteInfo = "Smuek Constant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F8829D2249CA6F300D089EF /* Smuek Constant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smuek Constant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8829D5249CA6F300D089EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F8829D7249CA6F300D089EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F8829D9249CA6F300D089EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F8829DB249CA6F400D089EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F8829DE249CA6F400D089EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F8829E1249CA6F400D089EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F8829E3249CA6F400D089EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8829E8249CA6F400D089EF /* Smuek ConstantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smuek ConstantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8829EC249CA6F400D089EF /* Smuek_ConstantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smuek_ConstantTests.swift; sourceTree = "<group>"; };
+		7F8829EE249CA6F500D089EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8829F3249CA6F500D089EF /* Smuek ConstantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smuek ConstantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8829F7249CA6F500D089EF /* Smuek_ConstantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smuek_ConstantUITests.swift; sourceTree = "<group>"; };
+		7F8829F9249CA6F500D089EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F8829CF249CA6F300D089EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8829E5249CA6F400D089EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8829F0249CA6F500D089EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F8829C9249CA6F200D089EF = {
+			isa = PBXGroup;
+			children = (
+				7F8829D4249CA6F300D089EF /* Smuek Constant */,
+				7F8829EB249CA6F400D089EF /* Smuek ConstantTests */,
+				7F8829F6249CA6F500D089EF /* Smuek ConstantUITests */,
+				7F8829D3249CA6F300D089EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8829D3249CA6F300D089EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F8829D2249CA6F300D089EF /* Smuek Constant.app */,
+				7F8829E8249CA6F400D089EF /* Smuek ConstantTests.xctest */,
+				7F8829F3249CA6F500D089EF /* Smuek ConstantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F8829D4249CA6F300D089EF /* Smuek Constant */ = {
+			isa = PBXGroup;
+			children = (
+				7F8829D5249CA6F300D089EF /* AppDelegate.swift */,
+				7F8829D7249CA6F300D089EF /* SceneDelegate.swift */,
+				7F8829D9249CA6F300D089EF /* ContentView.swift */,
+				7F8829DB249CA6F400D089EF /* Assets.xcassets */,
+				7F8829E0249CA6F400D089EF /* LaunchScreen.storyboard */,
+				7F8829E3249CA6F400D089EF /* Info.plist */,
+				7F8829DD249CA6F400D089EF /* Preview Content */,
+			);
+			path = "Smuek Constant";
+			sourceTree = "<group>";
+		};
+		7F8829DD249CA6F400D089EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F8829DE249CA6F400D089EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F8829EB249CA6F400D089EF /* Smuek ConstantTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F8829EC249CA6F400D089EF /* Smuek_ConstantTests.swift */,
+				7F8829EE249CA6F500D089EF /* Info.plist */,
+			);
+			path = "Smuek ConstantTests";
+			sourceTree = "<group>";
+		};
+		7F8829F6249CA6F500D089EF /* Smuek ConstantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F8829F7249CA6F500D089EF /* Smuek_ConstantUITests.swift */,
+				7F8829F9249CA6F500D089EF /* Info.plist */,
+			);
+			path = "Smuek ConstantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F8829D1249CA6F300D089EF /* Smuek Constant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8829FC249CA6F500D089EF /* Build configuration list for PBXNativeTarget "Smuek Constant" */;
+			buildPhases = (
+				7F8829CE249CA6F300D089EF /* Sources */,
+				7F8829CF249CA6F300D089EF /* Frameworks */,
+				7F8829D0249CA6F300D089EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smuek Constant";
+			productName = "Smuek Constant";
+			productReference = 7F8829D2249CA6F300D089EF /* Smuek Constant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F8829E7249CA6F400D089EF /* Smuek ConstantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8829FF249CA6F500D089EF /* Build configuration list for PBXNativeTarget "Smuek ConstantTests" */;
+			buildPhases = (
+				7F8829E4249CA6F400D089EF /* Sources */,
+				7F8829E5249CA6F400D089EF /* Frameworks */,
+				7F8829E6249CA6F400D089EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F8829EA249CA6F400D089EF /* PBXTargetDependency */,
+			);
+			name = "Smuek ConstantTests";
+			productName = "Smuek ConstantTests";
+			productReference = 7F8829E8249CA6F400D089EF /* Smuek ConstantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F8829F2249CA6F500D089EF /* Smuek ConstantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F882A02249CA6F500D089EF /* Build configuration list for PBXNativeTarget "Smuek ConstantUITests" */;
+			buildPhases = (
+				7F8829EF249CA6F500D089EF /* Sources */,
+				7F8829F0249CA6F500D089EF /* Frameworks */,
+				7F8829F1249CA6F500D089EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F8829F5249CA6F500D089EF /* PBXTargetDependency */,
+			);
+			name = "Smuek ConstantUITests";
+			productName = "Smuek ConstantUITests";
+			productReference = 7F8829F3249CA6F500D089EF /* Smuek ConstantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F8829CA249CA6F200D089EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Nayan Smuek";
+				TargetAttributes = {
+					7F8829D1249CA6F300D089EF = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					7F8829E7249CA6F400D089EF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7F8829D1249CA6F300D089EF;
+					};
+					7F8829F2249CA6F500D089EF = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7F8829D1249CA6F300D089EF;
+					};
+				};
+			};
+			buildConfigurationList = 7F8829CD249CA6F200D089EF /* Build configuration list for PBXProject "Smuek Constant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F8829C9249CA6F200D089EF;
+			productRefGroup = 7F8829D3249CA6F300D089EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F8829D1249CA6F300D089EF /* Smuek Constant */,
+				7F8829E7249CA6F400D089EF /* Smuek ConstantTests */,
+				7F8829F2249CA6F500D089EF /* Smuek ConstantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F8829D0249CA6F300D089EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8829E2249CA6F400D089EF /* LaunchScreen.storyboard in Resources */,
+				7F8829DF249CA6F400D089EF /* Preview Assets.xcassets in Resources */,
+				7F8829DC249CA6F400D089EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8829E6249CA6F400D089EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8829F1249CA6F500D089EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F8829CE249CA6F300D089EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8829D6249CA6F300D089EF /* AppDelegate.swift in Sources */,
+				7F8829D8249CA6F300D089EF /* SceneDelegate.swift in Sources */,
+				7F8829DA249CA6F300D089EF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8829E4249CA6F400D089EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8829ED249CA6F400D089EF /* Smuek_ConstantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8829EF249CA6F500D089EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8829F8249CA6F500D089EF /* Smuek_ConstantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F8829EA249CA6F400D089EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F8829D1249CA6F300D089EF /* Smuek Constant */;
+			targetProxy = 7F8829E9249CA6F400D089EF /* PBXContainerItemProxy */;
+		};
+		7F8829F5249CA6F500D089EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F8829D1249CA6F300D089EF /* Smuek Constant */;
+			targetProxy = 7F8829F4249CA6F500D089EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F8829E0249CA6F400D089EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8829E1249CA6F400D089EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F8829FA249CA6F500D089EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F8829FB249CA6F500D089EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F8829FD249CA6F500D089EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Smuek Constant/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Smuek Constant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pyramidApps.Smuek-Constant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F8829FE249CA6F500D089EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Smuek Constant/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Smuek Constant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pyramidApps.Smuek-Constant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F882A00249CA6F500D089EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smuek ConstantTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pyramidApps.Smuek-ConstantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smuek Constant.app/Smuek Constant";
+			};
+			name = Debug;
+		};
+		7F882A01249CA6F500D089EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smuek ConstantTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pyramidApps.Smuek-ConstantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smuek Constant.app/Smuek Constant";
+			};
+			name = Release;
+		};
+		7F882A03249CA6F500D089EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smuek ConstantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pyramidApps.Smuek-ConstantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smuek Constant";
+			};
+			name = Debug;
+		};
+		7F882A04249CA6F500D089EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Smuek ConstantUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pyramidApps.Smuek-ConstantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smuek Constant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F8829CD249CA6F200D089EF /* Build configuration list for PBXProject "Smuek Constant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8829FA249CA6F500D089EF /* Debug */,
+				7F8829FB249CA6F500D089EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8829FC249CA6F500D089EF /* Build configuration list for PBXNativeTarget "Smuek Constant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8829FD249CA6F500D089EF /* Debug */,
+				7F8829FE249CA6F500D089EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8829FF249CA6F500D089EF /* Build configuration list for PBXNativeTarget "Smuek ConstantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F882A00249CA6F500D089EF /* Debug */,
+				7F882A01249CA6F500D089EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F882A02249CA6F500D089EF /* Build configuration list for PBXNativeTarget "Smuek ConstantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F882A03249CA6F500D089EF /* Debug */,
+				7F882A04249CA6F500D089EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F8829CA249CA6F200D089EF /* Project object */;
+}
