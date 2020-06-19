@@ -11,7 +11,7 @@ import HGCircularSlider
 
 struct ContentView: View {
     @State var input1: String = ""
-    @State private var celsius: Double = 0
+    //@State private var celsius: Double = 0
 //    @State var input2: String = ""
 
     var calculation: String {
@@ -91,10 +91,6 @@ struct ContentView: View {
             //Slider(value: $input1, in: -100...100, step: 0.1)
             //Text("\(celsius) Celsius is \(celsius * 9 / 5 + 32) Fahrenheit")
                 //let rect = CGRectMake(0, 0, 100, 100)
-                let circularSlider = CircularSlider(frame: rect)
-            circularSlider.minimumValue = 0.0
-            circularSlider.maximumValue = 1.0
-            circularSlider.endPointValue = 0.2
                 
                 
             Text(calculation)
@@ -108,6 +104,13 @@ struct ContentView: View {
         .background(LinearGradient(gradient: Gradient(colors: [.blue, .red]), startPoint: .topLeading, endPoint: .bottomTrailing))
         }
     }
+}
+
+struct CircularSlider {
+    let circularSlider = CircularSlider(frame: myFrame)
+    circularSlider.minimumValue = 0.0
+    circularSlider.maximumValue = 1.0
+    circularSlider.endPointValue = 0.2
 }
 
 struct ContentView_Previews: PreviewProvider {
