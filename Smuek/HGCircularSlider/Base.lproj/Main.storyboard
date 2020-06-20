@@ -27,116 +27,6 @@
             </objects>
             <point key="canvasLocation" x="-63" y="748"/>
         </scene>
-        <!--Info-->
-        <scene sceneID="90r-0D-nKE">
-            <objects>
-                <viewController id="tLb-gm-5PK" customClass="PlayerViewController" customModule="Smuek_Constant" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="EH6-Ys-cpR"/>
-                        <viewControllerLayoutGuide type="bottom" id="qfh-d6-sk8"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="neD-ad-Dbx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="c7m-F5-dgq">
-                                <rect key="frame" x="40" y="133.5" width="295" height="400"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x2l-Xh-2MZ" customClass="CircularSlider" customModule="HGCircularSlider">
-                                        <rect key="frame" x="0.0" y="0.0" width="295" height="295"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="x2l-Xh-2MZ" secondAttribute="height" priority="999" id="5ZH-Qv-URo"/>
-                                        </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
-                                                <real key="value" value="2"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="trackFillColor">
-                                                <color key="value" red="0.14901960780000001" green="0.83921568629999999" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="diskColor">
-                                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="diskFillColor">
-                                                <color key="value" red="0.14901960780000001" green="0.83921568629999999" blue="0.99215686270000003" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
-                                                <color key="value" red="1" green="1" blue="1" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="thumbRadius">
-                                                <real key="value" value="2"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="endThumbStrokeHighlightedColor">
-                                                <color key="value" red="0.80000000000000004" green="0.5725490196078431" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="endThumbStrokeColor">
-                                                <color key="value" red="0.14901960780000001" green="0.83921568629999999" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </view>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ynQ-4R-F24">
-                                        <rect key="frame" x="0.0" y="315" width="295" height="37"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="17" text="StrangeZero" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRt-q4-UdR">
-                                                <rect key="frame" x="0.0" y="0.0" width="295" height="17"/>
-                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="20" text="Burnin Star" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAk-aN-SL3">
-                                                <rect key="frame" x="0.0" y="17" width="295" height="20"/>
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="9nw-2D-CbD">
-                                        <rect key="frame" x="0.0" y="372" width="295" height="29"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="28" id="Tdt-J7-hiZ"/>
-                                        </constraints>
-                                        <segments>
-                                            <segment title="Play"/>
-                                            <segment title="Pause"/>
-                                        </segments>
-                                        <connections>
-                                            <action selector="togglePlayer:" destination="tLb-gm-5PK" eventType="valueChanged" id="K6V-AR-PWu"/>
-                                        </connections>
-                                    </segmentedControl>
-                                </subviews>
-                            </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="167" placeholderIntrinsicHeight="48" text="0:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2j-gL-XgV">
-                                <rect key="frame" x="104" y="257" width="167" height="48"/>
-                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="40"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.49803921569999998" green="0.10980392160000001" blue="0.65098039220000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.14901960780000001" green="0.83921568629999999" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="V2j-gL-XgV" firstAttribute="centerY" secondItem="x2l-Xh-2MZ" secondAttribute="centerY" id="3Cf-SB-Xap"/>
-                            <constraint firstItem="V2j-gL-XgV" firstAttribute="centerX" secondItem="x2l-Xh-2MZ" secondAttribute="centerX" id="KeP-bj-vvP"/>
-                            <constraint firstItem="c7m-F5-dgq" firstAttribute="leading" secondItem="neD-ad-Dbx" secondAttribute="leadingMargin" constant="24" id="THE-G8-kPA"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="c7m-F5-dgq" secondAttribute="trailing" constant="24" id="YJD-9n-lKm"/>
-                            <constraint firstItem="c7m-F5-dgq" firstAttribute="centerY" secondItem="neD-ad-Dbx" secondAttribute="centerY" id="og5-LJ-ZPv"/>
-                        </constraints>
-                    </view>
-                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
-                    <tabBarItem key="tabBarItem" title="Info" image="info.circle.fill" catalog="system" id="VaG-Vm-OZC"/>
-                    <navigationItem key="navigationItem" id="INE-nv-dyL"/>
-                    <connections>
-                        <outlet property="circularSlider" destination="x2l-Xh-2MZ" id="nOH-vj-id4"/>
-                        <outlet property="playerSegmentedControl" destination="9nw-2D-CbD" id="KSc-fu-gyx"/>
-                        <outlet property="timerLabel" destination="V2j-gL-XgV" id="19I-fw-Isw"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LfZ-7G-N6b" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2002" y="1652"/>
-        </scene>
         <!--Calculator-->
         <scene sceneID="EVO-nS-JTv">
             <objects>
@@ -244,7 +134,7 @@
         <!--Info-->
         <scene sceneID="A69-iS-2xJ">
             <objects>
-                <viewController id="4do-Vf-GgV" customClass="PlayerViewController" customModule="Smuek_Constant" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4do-Vf-GgV" customClass="BasicViewController" customModule="Smuek_Constant" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Jf-zN-7g8"/>
                         <viewControllerLayoutGuide type="bottom" id="tqO-gl-rhg"/>
