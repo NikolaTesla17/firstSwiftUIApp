@@ -25,7 +25,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gDj-DB-klF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-473.91304347826093" y="1093.5267857142856"/>
+            <point key="canvasLocation" x="-63" y="748"/>
         </scene>
         <!--Player-->
         <scene sceneID="90r-0D-nKE">
