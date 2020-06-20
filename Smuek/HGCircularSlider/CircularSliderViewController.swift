@@ -35,16 +35,16 @@ class CircularSliderViewController: UIViewController {
         let value = circularSlider.endPointValue
         let ok = (circularSlider.maximumValue  / CGFloat(circularSlider.numberOfRounds))
         //let ff = ceil(value / ok)
-        let pizzas = value/11.76
-        let slices = pizzas*12
-        let calories = slices*275
+        let slices = value/0.98
+        let pizzas = (value/11.76)
+        let calories = (pizzas*12)*275
         //        let pizzas = String(format: "%.2f", product)
         //        let returnValue = String("you can buy " + pizzas + " pizzas with that much money")
         
         //maxValueLabel.text = String(format: "%.0f", circularSlider.maximumValue)
         //minValueLabel.text = String(format: "%.0f", circularSlider.minimumValue)
-        maxValueLabel.text = "you could buy " + String(format: "%.0f", pizzas) + " average pizzas"
-        minValueLabel.text = "along with " + String(format: "%.0f", slices) + " slices \n In other words, " + String(format: "%.0f", calories) + " calories"
+        maxValueLabel.text = "you could buy " + String(format: "%.1f", pizzas) + " average pizzas"
+        minValueLabel.text = "or " + String(format: "%.1f", slices) + " slices \n In other words, " + String(format: "%.0f", calories) + " calories"
         //caloriesLabel.text =
         
         //currentValueLabel.text = String(format: "%.0f", value)
