@@ -16,7 +16,7 @@ class CircularSliderViewController: UIViewController {
     @IBOutlet weak var roundsLabel: UILabel!
     @IBOutlet weak var maxValueLabel: UILabel!
     @IBOutlet weak var minValueLabel: UILabel!
-    @IBOutlet weak var currentValueLabel: UILabel!
+    //@IBOutlet weak var CaloriesLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,13 +34,22 @@ class CircularSliderViewController: UIViewController {
     @objc func updateTexts() {
         let value = circularSlider.endPointValue
         let ok = (circularSlider.maximumValue  / CGFloat(circularSlider.numberOfRounds))
-        let ff = ceil(value / ok)
+        //let ff = ceil(value / ok)
+        let pizzas = value/11.76
+        let slices = pizzas*12
+        let calories = slices*275
+        //        let pizzas = String(format: "%.2f", product)
+        //        let returnValue = String("you can buy " + pizzas + " pizzas with that much money")
         
-        maxValueLabel.text = String(format: "%.0f", circularSlider.maximumValue)
-        minValueLabel.text = String(format: "%.0f", circularSlider.minimumValue)
+        //maxValueLabel.text = String(format: "%.0f", circularSlider.maximumValue)
+        //minValueLabel.text = String(format: "%.0f", circularSlider.minimumValue)
+        maxValueLabel.text = "you could buy " + String(format: "%.0f", pizzas) + " average pizzas"
+        minValueLabel.text = "along with " + String(format: "%.0f", slices) + " slices \n In other words, " + String(format: "%.0f", calories) + " calories"
+        //caloriesLabel.text =
         
-        currentValueLabel.text = String(format: "%.0f", value)
-        roundsLabel.text = "Round N° " +  String(format: "%.0f", ff)
+        //currentValueLabel.text = String(format: "%.0f", value)
+        //roundsLabel.text = "Round N° " +  String(format: "%.0f", ff)
+        roundsLabel.text = "$" + String(format: "%.0f", value)
     }
 
     /*
