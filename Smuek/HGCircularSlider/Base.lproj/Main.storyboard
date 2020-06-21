@@ -45,7 +45,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTZ-Q0-WV1">
                                         <rect key="frame" x="80.5" y="85.5" width="122.5" height="112.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="94"/>
-                                        <color key="textColor" red="0.94901960780000005" green="0.79215686269999996" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -87,7 +87,7 @@
                                         <color key="value" red="0.94901960784313721" green="0.792156862745098" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="diskFillColor">
-                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="value" red="0.95715802910000003" green="0.8271439075" blue="0.33815568689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="diskColor">
                                         <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>

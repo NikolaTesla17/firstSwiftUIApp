@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  HGCircularSlider
 //
-//  Created by Hamza Ghazouani on 10/19/2016.
-//  Copyright (c) 2016 Hamza Ghazouani. All rights reserved.
+//  Created by Nayan Smuek on 10/19/2016.
+//  Copyright (c) 2016 Nayan Smuek. All rights reserved.
 //
 
 import UIKit
